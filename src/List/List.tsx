@@ -1,5 +1,3 @@
-import React from 'react';
-
 export const List = ({ items = [] }: { items: [] }) => {
   if (items.length === 0) return null;
 
